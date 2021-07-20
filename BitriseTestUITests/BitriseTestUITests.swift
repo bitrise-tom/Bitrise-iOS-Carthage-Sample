@@ -24,8 +24,9 @@ class BitriseTestUITests: XCTestCase {
 
     func testExample() throws {
         // UI tests must launch the application that they test.
-        let app = XCUIApplication()
-        app.launch()
+        // let app = XCUIApplication()
+        // app.launch()
+        XCUIApplication().launch()
         sleep(10)
 
         // Use recording to get started writing UI tests.
